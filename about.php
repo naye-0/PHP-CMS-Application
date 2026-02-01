@@ -1,7 +1,7 @@
 <?php
-include "header.php";
-include "navbar.php";
-include "hero.php";
+include "partials/header.php";
+include "partials/navbar.php";
+include "partials/hero.php";
 ?>
 
 <!-- Main Content -->
@@ -54,5 +54,5 @@ include "hero.php";
 </main>
 
 <?php
-include "footer.php";
+include "partials/footer.php";
 ?>

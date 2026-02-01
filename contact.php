@@ -1,7 +1,7 @@
 <?php
-include "header.php";
-include "navbar.php";
-include "hero.php";
+include "partials/header.php";
+include "partials/navbar.php";
+include "partials/hero.php";
 ?>
 
 <!-- Main Content -->
@@ -10,7 +10,7 @@ include "hero.php";
         <!-- Contact Form -->
         <div class="col-md-6">
             <h2>Get in Touch</h2>
-            <form action="mailto:edwin@edwindiaz.com.com" method="post" enctype="text/plain">
+            <form action="mailto:yevhenii@gmail.com" method="post" enctype="text/plain">
                 <div class="mb-3">
                     <label for="name" class="form-label">Name *</label>
                     <input
@@ -49,7 +49,7 @@ include "hero.php";
             </p>
             <ul class="list-unstyled">
                 <li>
-                    <strong>Email:</strong> <a href="mailto:edwin@edwindiaz.com.com">edwin@edwindiaz.com.com</a>
+                    <strong>Email:</strong> <a href="mailto:yevhenii@gmail.com">yevhenii@gmail.com</a>
                 </li>
                 <li>
                     <strong>Phone:</strong> (123) 456-7890
@@ -73,5 +73,5 @@ include "hero.php";
 </main>
 
 <?php
-include "footer.php";
+include "partials/footer.php";
 ?>
