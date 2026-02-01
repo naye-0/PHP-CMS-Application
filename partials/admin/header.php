@@ -1,3 +1,8 @@
+<?php
+include __DIR__ . "/../../init.php";
+echo uploads_url();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
