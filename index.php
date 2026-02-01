@@ -10,7 +10,7 @@ include "partials/hero.php";
     <div class="row mb-4">
         <div class="col-md-4">
             <img
-                src="https://via.placeholder.com/350x200"
+                src="https://placehold.co/350x200"
                 class="img-fluid"
                 alt="Blog Post Image"
             >
@@ -28,7 +28,7 @@ include "partials/hero.php";
     <div class="row mb-4">
         <div class="col-md-4">
             <img
-                src="https://via.placeholder.com/350x200"
+                src="https://placehold.co/350x200"
                 class="img-fluid"
                 alt="Blog Post Image"
             >
@@ -46,7 +46,7 @@ include "partials/hero.php";
     <div class="row mb-4">
         <div class="col-md-4">
             <img
-                src="https://via.placeholder.com/350x200"
+                src="https://placehold.co/350x200"
                 class="img-fluid"
                 alt="Blog Post Image"
             >

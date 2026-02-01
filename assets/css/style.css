@@ -1,0 +1,10 @@
+.footer{
+    posotion: fixed!important;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+/*main.container{*/
+/*    margin-bottom: 150px!important;*/
+/*}*/
