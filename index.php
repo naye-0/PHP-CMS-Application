@@ -2,6 +2,13 @@
 include "partials/header.php";
 include "partials/navbar.php";
 include "partials/hero.php";
+
+$db = new Database();
+
+if($db){
+    echo "<br>";
+    echo "<h2>Database Connection Successful</h2>";
+};
 ?>
 
 <!-- Main Content -->
