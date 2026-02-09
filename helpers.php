@@ -34,3 +34,13 @@ function redirect($url){
     header('Location: ' . base_url($url));
     exit;
 }
+
+// Check if the request method is POST for form submissions
+function isPostRequest(){
+    return $_SERVER['REQUEST_METHOD'] == 'POST';
+}
+
+// Get POST data safely with optional default value and trimming
+function getPostData($field, $default = null){
+    return isset($_PPOST[$field]) ? trim($_POST[$field]) : $default;
+}
